@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Petemoss&family=Nunito+Sans:ital@1&family=Comfortaa:wght@700&family=Quicksand:wght@700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: "Nunito Sans", sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    position: relative;
+    background-color: #e4f9f5;
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+}
+
+.top-cloud{
+    position: absolute;
+    top: 80px;
+    right: 320px;
+}
+
+.head{
+    font-family: 'Petemoss', cursive;
+    width: 28%;
+    margin: 50px auto 0 auto;
+    font-size: 5.75rem;
+    color: #66BFBF;
+}
+
+#paraSpan{
+    text-decoration: underline;
+}
+
+.para{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    color: #66BFBF;
+    font-size: 1rem;
+}
+
+.bottom-cloud{
+    position: absolute;
+    bottom: 320px;
+    left: 320px;
+}
+
+#profilePara{
+    width: 50%;
+    margin: auto auto 40px auto;
+    font-weight: bold;
+    font-size: 1em;
+    color: #3498DB;
+    line-height: 2;
+}
+
+.profile h2{
+    color: #EC7063;
+    font-weight: bolder;
+}
+
+.myImg{
+    margin: 30px auto 10px auto;
+    width: 20%;
+}
+
+hr{
+    border: 6px dotted #c9f5f5;
+    width: 30px;
+    border-bottom: none;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 50px auto 100px auto;
+    font-family: "Nunito Sans", sans-serif;
+    text-align: left;
+    line-height: 2;
+}
+
+.frontend{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.backend{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.red{
+    color: rgb(245, 102, 102);
+}
+
+.blue{
+    color: blue;
+}
+
+.tomato{
+    color: tomato;
+}
+
+.nodejs{
+    width: 20%;
+}
+
+.skills h2{
+    color: #EC7063;
+    margin: 70px auto;
+}
+
+.skill-row{
+    font-weight: bold;
+}
+
+.skill-row h3{
+    color: #58D68D;
+}
+
+h2{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2rem;
+}
+
+
+#myForm{
+    width: 50%;
+    margin: 20px auto 20px auto;
+    border: 2px solid rgb(95, 95, 95);
+    border-radius: 12px;
+    padding: 20px;
+    background-color: whitesmoke;
+}
+
+label{
+    font-weight: bold;
+    padding: 12px 7px 12px 0;
+    display: inline-block;
+}
+
+#myForm input{
+    width: 75%;
+    padding: 7px;
+    border-radius: 10px;
+    border: 1px solid rgb(95, 95, 95);
+}
+
+.row25{
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.row75{
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+#btnSubmit {
+    cursor: pointer;
+    margin: 10px 50px 0 190px;
+    padding: 10px;
+    background-color: rgb(253, 252, 252);
+    border: 2px solid rgb(95, 95, 95);
+    border-radius: 7px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+#btnSubmit:hover{
+    background-color: rgb(243, 233, 233);
+    box-shadow: 0 1rem 1rem -0.8rem rgba(0, 0, 0, 0.4);
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.footer-link{
+    padding: 5px;
+    border: 2px solid rgb(95, 95, 95);
+    border-radius: 7px;
+    font-family: 'Nunito Sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+}
+
+.bottom-container{
+    width: 50%;
+    margin: 10px auto 10px auto;
+}
+
+.bottom-container p{
+    color: indianred;
+    font-weight: bolder;
+    font-size: 1.25rem;
+}
+
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.github{
+    height: 10vh;
+    padding: 10px;
+}
+
+.instagram{
+    height: 10vh;
+    padding: 10px;
+}
+
+.footer-link:hover{
+    box-shadow: rgba(0, 0, 0, 0.4);
+}
+
+.contact-me h2{
+    color: tomato;
+}
+
+.contact-me h3{
+    color: rgb(202, 172, 4);
+}
